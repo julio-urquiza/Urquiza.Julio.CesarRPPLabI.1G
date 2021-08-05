@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1628206315 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"controller.h"
+	"logEntry.h"
+	"parser.h"
+
+1628205133 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\controller.h
+	"LinkedList.h"
+
+1625530337 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625525735 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\linkedlist.h
+
+1628206403 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"Validaciòn.h"
+	"LinkedList.h"
+	"controller.h"
+
+1627329875 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\validaciòn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+
+1627334697 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\validaciòn.c
+	"Validaciòn.h"
+
+1628206151 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\logentry.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"logEntry.h"
+
+1628205113 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\logentry.h
+
+1628205967 source:c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"logEntry.h"
+
+1628203907 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\parser.h
+	"LinkedList.h"
+
