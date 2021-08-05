@@ -55,3 +55,59 @@
 1628203907 c:\users\julio cesar urquiza\desktop\parcial practica 2\urquiza.parcial.labo\parser.h
 	"LinkedList.h"
 
+1628207338 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"controller.h"
+	"logEntry.h"
+	"parser.h"
+
+1628205133 c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\controller.h
+	"LinkedList.h"
+
+1625525735 c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\linkedlist.h
+
+1628205113 c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\logentry.h
+
+1628203907 c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\parser.h
+	"LinkedList.h"
+
+1625530337 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1628206151 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\logentry.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"logEntry.h"
+
+1628207042 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"Validaciòn.h"
+	"LinkedList.h"
+	"controller.h"
+
+1627329875 c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\validaciòn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+
+1628205967 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"logEntry.h"
+
+1627334697 source:c:\users\julio cesar urquiza\desktop\parcial progra\urquiza.julio.rpplabi.1g\urquiza.rpplabi.1g\validaciòn.c
+	"Validaciòn.h"
+

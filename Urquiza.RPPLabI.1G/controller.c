@@ -9,8 +9,9 @@ int controller_listLogs(LinkedList* pArrayList)
 {
     int retorno=-1;
     int tam;
-    if(pArrayList!=NULL && ll_len(pArrayList)>0)
+    if(pArrayList!=NULL)
     {
+        printf("hola\n");
         tam=ll_len(pArrayList);
         printf("Hay %d elementos\n",tam);
         printf("%20s%20s%30s%10s%30s\n","date","time","serviceName","gravedad","msg");
@@ -52,11 +53,8 @@ int controller_processInformation(  LinkedList* pArrayList,
     FILE* pFile1;
     FILE* pFile2;
     int retorno=0;
-    if(pArrayList!=NULL && ll_len(pArrayList)>0 &&
-       pArrayListFilterGravedad3!=NULL && pArrayListFilterGravedadMayorA7!=NULL &&
-       pArrayListFilterGravedadEntre4y7!=NULL && pArrayListFilterGravedadMenorA3!=NULL)
+    if(pArrayList!=NULL && ll_len(pArrayList)>0)
     {
-    printf("hola\n");
         pArrayListFilterGravedad3=ll_filter(pArrayList,LogEntry_filtrarGravedad3);
         if(pArrayListFilterGravedad3!=NULL)
         {
@@ -90,9 +88,11 @@ int controller_processInformation(  LinkedList* pArrayList,
         pArrayListFilterGravedadEntre4y7=ll_filter(pArrayList,LogEntry_filtrarGravedadEntre4y7);
         if(pArrayListFilterGravedadEntre4y7!=NULL)
         {
+            printf("Gravedad Entre 4 y 7\n");
             controller_listLogs(pArrayListFilterGravedadEntre4y7);
         }
         pArrayListFilterGravedadMenorA3=ll_filter(pArrayList,LogEntry_filtrarGravedadMenorA3);
+        retorno=1;
     }
     return retorno;
 }

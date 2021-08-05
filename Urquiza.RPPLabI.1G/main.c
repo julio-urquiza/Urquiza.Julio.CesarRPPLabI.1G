@@ -10,12 +10,12 @@ int opciones(void);
 
 int main()
 {
-    srand(time(NULL));
     LinkedList* lista=ll_newLinkedList();
-    LinkedList* pArrayListFilterGravedad3;
-    LinkedList* pArrayListFilterGravedadMayorA7;
-    LinkedList* pArrayListFilterGravedadEntre4y7;
-    LinkedList* pArrayListFilterGravedadMenorA3;
+    LinkedList* pArrayListFilterGravedad3=NULL;
+    LinkedList* pArrayListFilterGravedadMayorA7=NULL;
+    LinkedList* pArrayListFilterGravedadEntre4y7=NULL;
+    LinkedList* pArrayListFilterGravedadMenorA3=NULL;
+
     int seguir=1;
     do{
         switch(opciones())
@@ -34,10 +34,10 @@ int main()
                 break;
             case 3://Mostrar estadísticas:
                 system("cls");
-                controller_listLogs(pArrayListFilterGravedad3);
-                controller_listLogs(pArrayListFilterGravedadMayorA7);
+                //controller_listLogs(pArrayListFilterGravedad3);
+                //controller_listLogs(pArrayListFilterGravedadMayorA7);
                 controller_listLogs(pArrayListFilterGravedadEntre4y7);
-                controller_listLogs(pArrayListFilterGravedadMenorA3);
+                //controller_listLogs(pArrayListFilterGravedadMenorA3);
                 break;
             case 4://Imprimir lista logs:
                 system("cls");
